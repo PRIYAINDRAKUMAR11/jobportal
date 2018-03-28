@@ -23,7 +23,7 @@ body, html
 
 </style>
 <body>
-<div class="bg">
+<div class="bg" >
 
 <div class="container">
 
@@ -33,7 +33,7 @@ body, html
    <span style="color:red" ng-if="error.code==5">{{error.message}}</span>
    <span style="color:red"  ng-if="error.code==4" ng-show="message!=undefined">{{message}}</span>
    
-    <div class="form-group">
+    <div class="form-group" class="msg">
     <div style="margin-bottom: 10px" class="input-group">
     <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
       <input type="text" class="form-control" placeholder="Enter ID"  ng-model="user.email" required>
@@ -55,6 +55,6 @@ body, html
   
 </div>
 </div>
-</div>
+
 </body>
 </html>
